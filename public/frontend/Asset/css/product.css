@@ -1,0 +1,247 @@
+/* start css for this prioject  */
+* {
+   box-sizing: border-box;
+}
+
+/* manubar start here  */
+.body-manu {
+   margin-top: -100px;
+   z-index: 99;
+   width: 100%;
+   position: fixed;
+   background-color: #d2eef7;
+   box-shadow: 10px 10px 5px 0px rgba(90, 89, 89, 0.75);
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(83, 71, 71, 0.75);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(173, 142, 142, 0.75);
+}
+body{
+   overflow-x: hidden;
+}
+
+
+#topbar-back {
+   background-color: #66c8e9;
+}
+
+#topvar {
+
+   margin-top: -9px;
+}
+
+#topvar li a {
+   text-decoration: none;
+   color: black;
+
+}
+
+#topvar li {
+   list-style-type: none
+}
+
+#topvar li a:hover {
+   background-color: #98cddf;
+   color: rgb(2, 2, 1);
+   font-style: bold;
+   border-radius: 5px;
+
+}
+
+#manu-style li a:hover {
+   background-color: #66c8e9;
+   color: antiquewhite;
+   font-style: bold;
+   border-radius: 5px;
+
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+
+#manu-margin {
+   margin-left: 300px;
+}
+
+
+
+/* manubar end here  */
+
+/* side bar start here  */
+
+#asidevar-manu a {
+   position: absolute;
+   left: -80px;
+   margin-top: 150px;
+   transition: 0.3s;
+   padding: 15px;
+   width: 145px;
+   height: 49px;
+   text-decoration: none;
+   font-size: 15px;
+   color: rgb(0, 0, 0);
+   border-radius: 0 5px 5px 0;
+   z-index: 1030;
+}
+
+
+@media only screen and (max-width: 600px) {
+   #asidevar-manu a {
+      position: absolute;
+      left: -100px;
+      margin-top: 150px;
+      transition: 0.3s;
+      padding: 3px;
+      width: 145px;
+      height: 49px;
+      text-decoration: none;
+      font-size: 15px;
+      color: rgb(0, 0, 0);
+      border-radius: 0 5px 5px 0;
+      z-index: 999;
+   }
+
+}
+
+
+.sidenav {
+   text-align: center;
+   position: fixed;
+}
+
+#asidevar-manu a:hover {
+   left: 0;
+}
+
+#Facebook {
+   top: 20px;
+   background-color: #04AA6D;
+}
+
+#Instragram {
+   top: 80px;
+   background-color: #2196F3;
+}
+
+#Linkedin {
+   top: 140px;
+   background-color: #f44336;
+}
+
+#Twitter {
+   top: 200px;
+   background-color: #555
+}
+
+/* side bar end here  */
+
+
+
+
+.title {
+   font-size: 25px;
+   font-weight: normal;
+   color: #666666;
+}
+
+#imgSize {
+   height: 200px;
+   width: 100%;
+}
+
+.projecthvr {
+   padding: 10px 5px;
+   margin-bottom: 20px;
+   box-shadow: 0 5px 5px -3px #999;
+   transition: all .3s;
+   border-radius: 8px;
+   border: 0.1px solid #999;
+}
+
+.projecthvr:hover {
+   -webkit-box-shadow: 0 9px 8px -6px rgb(39, 35, 35);
+   -moz-box-shadow: 0 9px 8px -6px rgb(24, 23, 23);
+   box-shadow: 0 12px 8px -6px rgb(107, 99, 99);
+}
+
+.imghover {
+   width: 80%;
+   transition: transform .4s;
+   border-radius: 10px;
+}
+
+.imghover:hover {
+   transform: scale(1.15);
+   border: 0.1px solid #999;
+}
+
+.H1Comon4 {
+   margin-left: 57px;
+   font-family: 'Rajdhani', sans-serif;
+   color: #fff;
+   font-size: 40px;
+   font-weight: 800;
+   text-transform: uppercase;
+   text-shadow: 3px 3px 10px #333;
+}
+
+
+#height {
+   height: 382px;
+}
+
+
+.mar {
+   margin-top: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+   body {
+      margin: 40px;
+      padding: 10px;
+   }
+}
+
+
+
+
+/* slider img css start here  */
+
+
+.slidde-img-size {
+   height: 250px;
+   width: 100%;
+   border-radius: 8px;
+   margin: 10px 1px 1px 1px;
+   padding: 3px;
+}
+
+/* slider img css end here  */
+
+/* footer css :start  */
+.footer-body {
+   font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   line-height: 20px;
+   padding: 0;
+   margin-top: 5px;
+   background-color: #ffffff;
+}
+
+.contuct {
+   margin-left: 36px;
+}
+
+#product-link a {
+   text-decoration: none;
+   color: white;
+   font-synthesis: 5px;
+}
+
+#product-link a:hover {
+   background-color: aliceblue;
+   color: #1f1616;
+}
+
+/* footer css end here  */
